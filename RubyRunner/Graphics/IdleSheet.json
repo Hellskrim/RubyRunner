@@ -1,0 +1,28 @@
+{"frames": {
+
+"walk__12.png":
+{
+	"frame": {"x":61,"y":1,"w":54,"h":270},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":270},
+	"sourceSize": {"w":54,"h":270}
+},
+"walk__28.png":
+{
+	"frame": {"x":1,"y":1,"w":58,"h":273},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":273},
+	"sourceSize": {"w":58,"h":273}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "IdleSheet.png",
+	"format": "RGBA8888",
+	"size": {"w":116,"h":275},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:127d8f18e9d8556f15711b01709254a7:9b01546b90e2040798ad1c5b014af908:9d3d536e3babc58272b1a0379151ada7$"
+}
+}

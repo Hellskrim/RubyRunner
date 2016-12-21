@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{2BF450AB-2F43-49CB-A985-B37601DEC2C8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>2.0</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="Graphics\GameOver.png" />
+    <Content Include="Graphics\GrassGround1.png" />
+    <Content Include="Graphics\GrassGround2.png" />
+    <Content Include="Graphics\GrassGround3.png" />
+    <Content Include="Graphics\ground.png" />
+    <Content Include="Graphics\GroundBrown.png" />
+    <Content Include="Graphics\GroundStone.png" />
+    <Content Include="Graphics\IdleSheet.png" />
+    <Content Include="Graphics\JumpSheet1.png" />
+    <Content Include="Graphics\Level_1.png" />
+    <Content Include="Graphics\MonWalkLeft.png" />
+    <Content Include="Graphics\MonWalkRight.png" />
+    <Content Include="Graphics\portalAnim.png" />
+    <Content Include="Graphics\ruby.png" />
+    <Content Include="Graphics\SpikesDown.png" />
+    <Content Include="Graphics\SpikesLeft.png" />
+    <Content Include="Graphics\SpikesRight.png" />
+    <Content Include="Graphics\SpikesUp.png" />
+    <Content Include="Graphics\start.png" />
+    <Content Include="Graphics\Title2.png" />
+    <Content Include="Graphics\Victory.png" />
+    <Content Include="Graphics\WalkingLeftSheet.png" />
+    <Content Include="Graphics\WalkingSheet.png" />
+    <Content Include="Graphics\Water.png" />
+    <Content Include="index.html" />
+    <Content Include="Phaser\phaser.js" />
+    <Content Include="Phaser\phaser.min.js" />
+    <Content Include="Sounds\GameOverMusic.mp3" />
+    <Content Include="Sounds\Gems.mp3" />
+    <Content Include="Sounds\State1.mp3" />
+    <Content Include="Sounds\State2.mp3" />
+    <Content Include="Sounds\State3.mp3" />
+    <Content Include="Sounds\TitleMusic.mp3" />
+    <Content Include="Sounds\VictoryMusic.mp3" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="GameObjects\Level1.ts" />
+    <TypeScriptCompile Include="GameObjects\Level2.ts" />
+    <TypeScriptCompile Include="GameObjects\Level3.ts" />
+    <TypeScriptCompile Include="GameObjects\Monster.ts" />
+    <TypeScriptCompile Include="GameObjects\Player.ts" />
+    <TypeScriptCompile Include="Phaser\box2d.d.ts" />
+    <TypeScriptCompile Include="Phaser\p2.d.ts" />
+    <TypeScriptCompile Include="Phaser\phaser.d.ts" />
+    <TypeScriptCompile Include="Phaser\phaser_box2d.d.ts" />
+    <TypeScriptCompile Include="Phaser\pixi.d.ts" />
+    <TypeScriptCompile Include="States\GameOver.ts" />
+    <TypeScriptCompile Include="States\GameTitle.ts" />
+    <TypeScriptCompile Include="States\GamePlay.ts" />
+    <TypeScriptCompile Include="States\GameVictory.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Graphics\WalkingSheet.json" />
+    <Content Include="Graphics\IdleSheet.json" />
+    <Content Include="Graphics\WalkingLeftSheet.json" />
+    <Content Include="Graphics\MonWalkLeft.json" />
+    <Content Include="Graphics\MonWalkRight.json" />
+    <Content Include="Graphics\JumpSheet1.json" />
+    <Content Include="Graphics\portalAnim.json" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>RubyRunner</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50069</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50069/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

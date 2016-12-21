@@ -1,0 +1,44 @@
+{"frames": {
+
+"MonWalk1.png":
+{
+	"frame": {"x":1,"y":1,"w":26,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":41},
+	"sourceSize": {"w":26,"h":41}
+},
+"MonWalk2.png":
+{
+	"frame": {"x":57,"y":1,"w":24,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":41},
+	"sourceSize": {"w":24,"h":41}
+},
+"MonWalk3.png":
+{
+	"frame": {"x":83,"y":1,"w":25,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":40},
+	"sourceSize": {"w":25,"h":40}
+},
+"MonWalk4.png":
+{
+	"frame": {"x":29,"y":1,"w":26,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":41},
+	"sourceSize": {"w":26,"h":41}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "MonWalkLeft.png",
+	"format": "RGBA8888",
+	"size": {"w":109,"h":43},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4abe970d4616676fc564d39fd6c5eb20:f2dc76243538f12242d3bda393dcff25:7eff5e050119cd8f01a6b0b66826ad5b$"
+}
+}

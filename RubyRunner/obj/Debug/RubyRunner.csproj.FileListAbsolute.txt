@@ -1,0 +1,6 @@
+E:\Projekty\RubyRunner\RubyRunner\bin\RubyRunner.dll.config
+E:\Projekty\RubyRunner\RubyRunner\bin\RubyRunner.dll
+E:\Projekty\RubyRunner\RubyRunner\bin\RubyRunner.pdb
+E:\Projekty\RubyRunner\RubyRunner\obj\Debug\RubyRunner.csprojResolveAssemblyReference.cache
+E:\Projekty\RubyRunner\RubyRunner\obj\Debug\RubyRunner.dll
+E:\Projekty\RubyRunner\RubyRunner\obj\Debug\RubyRunner.pdb
